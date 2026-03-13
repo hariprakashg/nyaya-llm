@@ -19,3 +19,7 @@ data/vector_store/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Data and PDFs
+data/raw_documents/*.pdf
+data/vector_store/
