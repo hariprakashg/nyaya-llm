@@ -1,12 +1,12 @@
-# Nyaya-LLM ⚖️
+# Nyaya-LLM 
 **Offline Legal Literacy for the Bhartiya Nyaya Sanhita (BNS)**
 
 A FOSS Hack 2026 project aimed at providing offline, high-speed legal assistance on low-end hardware (8GB RAM).
 
-## 🚀 Vision
+##  Vision
 To bridge the digital divide in legal accessibility using quantized LLMs and RAG.
 
-## 🛠️ Tech Stack (Planned)
+##  Tech Stack (Planned)
 - **Model:** Mistral/Llama-3 (via Ollama)
 - **Frontend:** Streamlit
 - **Database:** ChromaDB (Offline Vector Store)
