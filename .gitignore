@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+
+# Streamlit
+.streamlit/
+
+# AI Data & Vector Stores (CRITICAL for FOSS Hack)
+data/vector_store/
+*.pdf
+*.db
+*.sqlite3
+*.gguf
+
+# OS generated files
+.DS_Store
+Thumbs.db
