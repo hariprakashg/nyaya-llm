@@ -11,3 +11,8 @@ To bridge the digital divide in legal accessibility using quantized LLMs and RAG
 - **Frontend:** Streamlit
 - **Database:** ChromaDB (Offline Vector Store)
 - **Language:** Python
+## 📈 Development Roadmap
+- [x] Day 1: Repository setup and Data collection
+- [ ] Day 2: Offline indexing and Vector Store creation (In Progress)
+- [ ] Week 3: LLM Integration and RAG pipeline setup
+- [ ] Week 4: Streamlit UI and Demo preparation
