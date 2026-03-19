@@ -2,9 +2,9 @@ import os
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.llms import Ollama
-from prompts import get_system_prompt 
+from src.prompts import get_system_prompt
 
-DB_DIR = "../data/vector_store" 
+DB_DIR = "data/vector_store"
 
 def get_legal_answer(query):
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
@@ -17,4 +17,5 @@ def get_legal_answer(query):
     final_prompt = system_instructions.format(context=context, question=query)
     
     llm = Ollama(model="mistral") 
-    return llm.invoke(final_prompt)
+    
+    return llm.stream(final_prompt)
